@@ -1,0 +1,23 @@
+#basic-navbar-nav{
+    text-align:center;
+
+}
+
+.navbar-bg{
+    background:#2d313b;
+}
+
+
+@media only screen and (max-width:991px){
+    .my-nav-link{
+        border-bottom:1px solid rgba(157, 212, 231, 0.067);
+
+    }
+    .home-link{
+        margin-top:15px;
+        border-top:1px solid rgba(157, 212, 231, 0.267);
+    }
+    .projects-link, .blog-link, .resume-link{
+        display:none !important;
+    }
+}

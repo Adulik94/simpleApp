@@ -1,0 +1,30 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.vl {
+    margin-top: 7px;
+    border-left: 1px solid #d3cfcf;
+    position: absolute;
+    height: 25px;
+}
