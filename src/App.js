@@ -8,6 +8,7 @@ import Quetes from "./Components/Quetes/Quetes";
 import NewPartner from "./Components/NewPartner/NewPartner";
 import ManageServices from "./Components/ManageServices/ManageServices";
 import Carusel from "./Components/Carusel/Carusel";
+import WhyGreenhouse from "./Components/WhyGreenhouse/WhyGreenhouse";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <NewPartner/>
         <ManageServices/>
         <Carusel/>
+        <WhyGreenhouse/>
       </ThemeProvider>
     </>
   );
