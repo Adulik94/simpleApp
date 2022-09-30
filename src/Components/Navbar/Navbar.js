@@ -35,7 +35,7 @@ const Navbar = () => {
 
 
   return (
-    <AppBar position="static" style={{
+    <AppBar position="fixed" style={{
       backgroundColor: "white",
       height: 80
     }}>

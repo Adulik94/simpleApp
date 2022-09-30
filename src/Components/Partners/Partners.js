@@ -48,7 +48,7 @@ const Partners = () => {
     <>
       <Container maxWidth={false} sx={{bgcolor: 'rgba(147,213,180,0.1)',}}
                  height="fit-content">
-        <Box mt={2} mb={4}>
+        <Box pt={10} pb={10} mb={4}>
           <Typography
             variant="body2"
             align="center"
@@ -56,8 +56,8 @@ const Partners = () => {
             maxWidth="sm"
           >Our network serves startups, small businesses, and enterprises from all over the world
           </Typography>
-          <Grid container paddingTop="40px">
-            <Grid item md={2} xs={4}>
+          <Grid container paddingTop="40px" justifyContent="center">
+            <Grid item md={1} xs={2}>
               <div
                 onMouseLeave={() => {
                   setcarHover(false);
@@ -82,7 +82,7 @@ const Partners = () => {
                 </Typography>
               </div>
             </Grid>
-            <Grid item md={2} xs={4}>
+            <Grid item md={1} xs={2}>
               <div className={classes.gridItem}>
                 <div className={classes.img_root}>
                   <img
@@ -93,7 +93,7 @@ const Partners = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item md={2} xs={4}>
+            <Grid item md={1} xs={2}>
               <div className={classes.gridItem}>
                 <div className={classes.img_root}>
                   <img
@@ -104,7 +104,7 @@ const Partners = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item md={2} xs={4}>
+            <Grid item md={1} xs={2}>
               <div
                 onMouseLeave={() => {
                   setcarHover(false);
@@ -123,7 +123,7 @@ const Partners = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item md={2} xs={4}>
+            <Grid item md={1} xs={2}>
               <div
                 onMouseLeave={() => {
                   setcarHover(false);
@@ -142,7 +142,7 @@ const Partners = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item md={2} xs={4}>
+            <Grid item md={1} xs={2}>
               <div
                 onMouseLeave={() => {
                   setcarHover(false);
@@ -161,7 +161,7 @@ const Partners = () => {
                 </div>
               </div>
             </Grid>
-            <Grid item md={2} xs={4}>
+            <Grid item md={1} xs={2}>
               <div
                 onMouseLeave={() => {
                   setcarHover(false);
